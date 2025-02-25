@@ -10,5 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
 
+  shared_preferences: any
+
   domain:
     path: ../domain

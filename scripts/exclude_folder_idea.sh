@@ -17,11 +17,23 @@ echo  "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
       <excludeFolder url=\"file://\$MODULE_DIR$/.dart_tool\" />
       <excludeFolder url=\"file://\$MODULE_DIR$/app/build\" />
       <excludeFolder url=\"file://\$MODULE_DIR$/app/.dart_tool\" />
+      <excludeFolder url=\"file://\$MODULE_DIR$/app/.flutter-plugins\" />
+      <excludeFolder url=\"file://\$MODULE_DIR$/app/.flutter-plugins-dependencies\" />
       <excludeFolder url=\"file://\$MODULE_DIR$/layers/data/.dart_tool\" />
+      <excludeFolder url=\"file://\$MODULE_DIR$/layers/data/.flutter-plugins\" />
+      <excludeFolder url=\"file://\$MODULE_DIR$/layers/data/.flutter-plugins-dependencies\" />
       <excludeFolder url=\"file://\$MODULE_DIR$/layers/domain/.dart_tool\" />
+      <excludeFolder url=\"file://\$MODULE_DIR$/layers/domain/.flutter-plugins\" />
+      <excludeFolder url=\"file://\$MODULE_DIR$/layers/domain/.flutter-plugins-dependencies\" />
       <excludeFolder url=\"file://\$MODULE_DIR$/layers/register/.dart_tool\" />
+      <excludeFolder url=\"file://\$MODULE_DIR$/layers/register/.flutter-plugins\" />
+      <excludeFolder url=\"file://\$MODULE_DIR$/layers/register/.flutter-plugins-dependencies\" />
       <excludeFolder url=\"file://\$MODULE_DIR$/libraries/common/.dart_tool\" />
+      <excludeFolder url=\"file://\$MODULE_DIR$/libraries/common/.flutter-plugins\" />
+      <excludeFolder url=\"file://\$MODULE_DIR$/libraries/common/.flutter-plugins-dependencies\" />
       <excludeFolder url=\"file://\$MODULE_DIR$/libraries/generate/.dart_tool\" />
+      <excludeFolder url=\"file://\$MODULE_DIR$/libraries/generate/.flutter-plugins\" />
+      <excludeFolder url=\"file://\$MODULE_DIR$/libraries/generate/.flutter-plugins-dependencies\" />
     </content>
     <orderEntry type=\"inheritedJdk\" />
     <orderEntry type=\"sourceFolder\" forTests=\"false\" />

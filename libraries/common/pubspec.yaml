@@ -11,3 +11,5 @@ dependencies:
 
   dio: any
   get_it: any
+  pretty_dio_logger: any
+  shared_preferences: any
