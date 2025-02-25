@@ -1,0 +1,13 @@
+name: core
+version: 0.0.1
+
+environment:
+  sdk: ^3.6.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  dio: any
+  get_it: any

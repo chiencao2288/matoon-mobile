@@ -1,0 +1,10 @@
+{
+  "dev": {
+    "is_update": true,
+    "is_logger": true
+  },
+  "prod": {
+    "is_update": true,
+    "is_logger": true
+  }
+}

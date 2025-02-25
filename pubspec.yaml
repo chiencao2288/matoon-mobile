@@ -1,0 +1,13 @@
+name: matoon
+publish_to: 'none'
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  melos: any

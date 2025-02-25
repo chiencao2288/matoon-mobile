@@ -1,0 +1,36 @@
+name: matoon
+
+sdkPath: .fvm/flutter_sdk
+
+packages:
+  - app
+  - layers/*
+  - libraries/*
+
+scripts:
+  clean:
+    run: flutter clean && flutter pub get
+    exec:
+      concurrency: 1
+      failFast: true
+
+  clean:module:
+    run: flutter clean && flutter pub get
+    exec:
+      concurrency: 1
+      failFast: true
+    packageFilters:
+      scope:
+        - data
+        - domain
+        - register
+
+  clean:library:
+    run: flutter clean && flutter pub get
+    exec:
+      concurrency: 1
+      failFast: true
+    packageFilters:
+      scope:
+        - core
+        - widget

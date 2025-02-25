@@ -1,0 +1,40 @@
+name: matoon
+version: 0.0.0
+publish_to: none
+
+# ============================================================
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  dio: any
+  get_it: any
+  bloc: any
+  go_router: any
+
+  domain:
+    path: ../layers/domain
+  register:
+    path: ../layers/register
+
+  core:
+    path: ../libraries/core
+  widget:
+    path: ../libraries/widget
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  melos: any
+
+# ============================================================
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fakes/
+    - assets/images/
+    - assets/translates/

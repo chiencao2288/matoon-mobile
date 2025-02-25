@@ -1,0 +1,17 @@
+{
+  "code": null,
+  "message": null,
+  "status": "success",
+  "data": {
+    "items": [
+      {
+        "title": "Một phút bất đồng",
+        "image": "https://image.com",
+        "author": "Phạm Chu",
+        "description": "",
+        "date_upload": "",
+        "date_modify": ""
+      }
+    ]
+  }
+}
