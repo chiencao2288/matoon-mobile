@@ -1,4 +1,4 @@
-name: register
+name: generate
 version: 0.0.1
 publish_to: none
 
@@ -9,10 +9,3 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  data:
-    path: ../../layers/data
-  domain:
-    path: ../../layers/domain
-  common:
-    path: ../../libraries/common

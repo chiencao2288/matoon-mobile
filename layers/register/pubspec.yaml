@@ -14,5 +14,5 @@ dependencies:
     path: ../../layers/data
   domain:
     path: ../../layers/domain
-  core:
-    path: ../../libraries/core
+  common:
+    path: ../../libraries/common

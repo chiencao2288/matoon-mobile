@@ -1,3 +1,12 @@
+echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<project version=\"4\">
+  <component name=\"ProjectModuleManager\">
+    <modules>
+      <module fileurl=\"file://\$PROJECT_DIR$/.idea/matoon.iml\" filepath=\"\$PROJECT_DIR$/.idea/matoon.iml\" />
+    </modules>
+  </component>
+</project>" > "../.idea/modules.xml"
+
 echo  "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 <module type=\"JAVA_MODULE\" version=\"4\">
   <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">
@@ -11,12 +20,12 @@ echo  "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
       <excludeFolder url=\"file://\$MODULE_DIR$/layers/data/.dart_tool\" />
       <excludeFolder url=\"file://\$MODULE_DIR$/layers/domain/.dart_tool\" />
       <excludeFolder url=\"file://\$MODULE_DIR$/layers/register/.dart_tool\" />
-      <excludeFolder url=\"file://\$MODULE_DIR$/libraries/core/.dart_tool\" />
-      <excludeFolder url=\"file://\$MODULE_DIR$/libraries/widget/.dart_tool\" />
+      <excludeFolder url=\"file://\$MODULE_DIR$/libraries/common/.dart_tool\" />
+      <excludeFolder url=\"file://\$MODULE_DIR$/libraries/generate/.dart_tool\" />
     </content>
     <orderEntry type=\"inheritedJdk\" />
     <orderEntry type=\"sourceFolder\" forTests=\"false\" />
     <orderEntry type=\"library\" name=\"Dart SDK\" level=\"project\" />
     <orderEntry type=\"library\" name=\"Dart Packages\" level=\"project\" />
   </component>
-</module>" > "../.idea/matoon_mobile.iml"
+</module>" > "../.idea/matoon.iml"
